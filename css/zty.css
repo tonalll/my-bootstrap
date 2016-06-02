@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 44px;
+}
+
+h5 {
+    font-size: 54px;
+}
+
+h6 {
+    font-size: 64px;
+}
+
+
+/*
+l layout 布局
+  row 行
+  column 列
+使用display: table;布局，兼容性后，内容元素float后不影响文档流；
+*/
+
+.row {
+    display: table;
+    width: 100%;
+}
+
+.col {
+    padding: 0 5px;
+    float: left;
+    width: 100%;
+}
+
+.col-12 {
+    padding: 0 5px;
+    float: left;
+    width: 100%;
+}
+
+.col-11 {
+    padding: 0 5px;
+    float: left;
+    width: 91.66666667%;
+}
+
+.col-10 {
+    padding: 0 5px;
+    float: left;
+    width: 83.33333333%;
+}
+
+.col-9 {
+    padding: 0 5px;
+    float: left;
+    width: 75%;
+}
+
+.col-8 {
+    padding: 0 5px;
+    float: left;
+    width: 66.66666667%;
+}
+
+.col-7 {
+    padding: 0 5px;
+    float: left;
+    width: 58.33333333%;
+}
+
+.col-6 {
+    padding: 0 5px;
+    float: left;
+    width: 50%;
+}
+
+.col-5 {
+    padding: 0 5px;
+    float: left;
+    width: 41.66666667%;
+}
+
+.col-4 {
+    padding: 0 5px;
+    float: left;
+    width: 33.33333333%;
+}
+
+.col-3 {
+    padding: 0 5px;
+    float: left;
+    width: 25%;
+}
+
+.col-2 {
+    padding: 0 5px;
+    float: left;
+    width: 16.66666667%;
+}
+
+.col-1 {
+    padding: 0 5px;
+    float: left;
+    width: 8.33333333%;
+}
+
+
+/**/
