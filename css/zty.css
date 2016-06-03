@@ -33,93 +33,203 @@ h6 {
 
 /*
 l layout 布局
-  row 行
-  column 列
+  l-row 行
+  l-col 列
 使用display: table;布局，兼容性后，内容元素float后不影响文档流；
 */
 
-.row {
+.l-row,
+.l-row-padding {
     display: table;
     width: 100%;
 }
 
-.col {
+.l-col {
+    float: left;
+}
+
+.l-row-padding .l-col {
+    padding: 0 5px;
+    float: left;
+}
+
+.l-row-padding .l-col-12 {
     padding: 0 5px;
     float: left;
     width: 100%;
 }
 
-.col-12 {
-    padding: 0 5px;
-    float: left;
-    width: 100%;
-}
-
-.col-11 {
+.l-row-padding .l-col-11 {
     padding: 0 5px;
     float: left;
     width: 91.66666667%;
 }
 
-.col-10 {
+.l-row-padding .l-col-10 {
     padding: 0 5px;
     float: left;
     width: 83.33333333%;
 }
 
-.col-9 {
+.l-row-padding .l-col-9 {
     padding: 0 5px;
     float: left;
     width: 75%;
 }
 
-.col-8 {
+.l-row-padding .l-col-8 {
     padding: 0 5px;
     float: left;
     width: 66.66666667%;
 }
 
-.col-7 {
+.l-row-padding .l-col-7 {
     padding: 0 5px;
     float: left;
     width: 58.33333333%;
 }
 
-.col-6 {
+.l-row-padding .l-col-6 {
     padding: 0 5px;
     float: left;
     width: 50%;
 }
 
-.col-5 {
+.l-row-padding .l-col-5 {
     padding: 0 5px;
     float: left;
     width: 41.66666667%;
 }
 
-.col-4 {
+.l-row-padding .l-col-4 {
     padding: 0 5px;
     float: left;
     width: 33.33333333%;
 }
 
-.col-3 {
+.l-row-padding .l-col-3 {
     padding: 0 5px;
     float: left;
     width: 25%;
 }
 
-.col-2 {
+.l-row-padding .l-col-2 {
     padding: 0 5px;
     float: left;
     width: 16.66666667%;
 }
 
-.col-1 {
+.l-row-padding .l-col-1 {
     padding: 0 5px;
     float: left;
     width: 8.33333333%;
 }
 
+.l-col-12 {
+    float: left;
+    width: 100%;
+}
 
-/**/
+.l-col-11 {
+    float: left;
+    width: 91.66666667%;
+}
+
+.l-col-10 {
+    float: left;
+    width: 83.33333333%;
+}
+
+.l-col-9 {
+    float: left;
+    width: 75%;
+}
+
+.l-col-8 {
+    float: left;
+    width: 66.66666667%;
+}
+
+.l-col-7 {
+    float: left;
+    width: 58.33333333%;
+}
+
+.l-col-6 {
+    float: left;
+    width: 50%;
+}
+
+.l-col-5 {
+    float: left;
+    width: 41.66666667%;
+}
+
+.l-col-4 {
+    float: left;
+    width: 33.33333333%;
+}
+
+.l-col-3 {
+    float: left;
+    width: 25%;
+}
+
+.l-col-2 {
+    float: left;
+    width: 16.66666667%;
+}
+
+.l-col-1 {
+    float: left;
+    width: 8.33333333%;
+}
+.l-segment{padding: 5px;}
+
+.l-border{border: 1px solid #ddd;}
+
+.l-padding-5{padding: 5px;}
+.l-padding-10{padding: 10px;}
+.l-padding-15{padding: 15px;}
+.l-padding-20{padding: 20px;}
+.l-padding-25{padding: 25px;}
+.l-padding-30{padding: 30px;}
+
+.l-padding-0-5{padding: 5px;}
+.l-padding-0-10{padding: 10px;}
+.l-padding-0-15{padding: 15px;}
+.l-padding-0-20{padding: 20px;}
+.l-padding-0-25{padding: 25px;}
+.l-padding-0-30{padding: 30px;}
+
+.l-padding-5-0{padding: 5px;}
+.l-padding-10-0{padding: 10px;}
+.l-padding-15-0{padding: 15px;}
+.l-padding-20-0{padding: 20px;}
+.l-padding-25-0{padding: 25px;}
+.l-padding-30-0{padding: 30px;}
+
+/*分割线*/
+.l-divider{height: 1px;background: #ddd;margin: 0}
+.l-divider-5{height: 1px;background: #ddd;margin: 5px;}
+.l-divider-05{height: 1px;background: #ddd;margin:0 5px;}
+.l-divider-50{height: 1px;background: #ddd;margin: 5px 0;}
+
+/*
+module 模块
+m
+*/
+.m-navbar{background: #777;}
+.m-navbar .l-col{padding: 15px 5px;font-size: 16px;color: #eee;cursor: pointer;text-decoration: none;}
+.m-navbar .l-col:hover{background: #555;color: #fff}
+
+.m-sidebar{}
+.m-sidebar .x-first{padding-left: 0!important;}
+.m-sidebar .x-title{cursor: pointer;padding-left: 10px;}
+
+/* 
+自由元素
+x
+x-unit
+x-title
+ */
